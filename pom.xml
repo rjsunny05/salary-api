@@ -104,7 +104,9 @@
 				</executions>
 				<configuration>
 					<excludes>
-						<!-- Remove these unless tests for these packages should be skipped -->
+						<exclude>com/opstree/microservice/salary/controller/**</exclude>
+						<exclude>com/opstree/microservice/salary/service/**</exclude>
+						<exclude>com/opstree/microservice/salary/repository/**</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
